@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type:none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.8s;
+    
+}
+nav ul li:hover{
+    background-color: #f0795b;
+    padding: 10px;
+    border-radius: 39%;
+}
+a{
+    text-decoration: none;
+    color: #3e3e3e;
+}
+a:hover{
+    color: #fff;
+}
+p{
+    color: #555;
+    font-size: 12px;
+}
+.cart-img img:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+.container{
+    max-width: 1500px;
+    max-height: 80%;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.col-2{
+    flex-basis: 60% 40%;
+    min-width: 350px;
+}
+
+.col-2 img{
+    max-width: 100%;
+    padding:0;
+}
+.col-2 img:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+.col-2 h1{
+font-size: 50px;
+line-height: 60px;
+margin:15px 0;
+}
+.btn{
+    display: inline-block;
+    background-color: #ec6f42;
+    color: #fff;
+    padding: 10px;
+    margin-top:45px ;
+    margin-left: 50%;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.btn:hover{
+    background: #2d2a2a;
+}
+.header{
+    background: radial-gradient(#fff,#f3c6af);
+}
+.header row{
+    margin-top: 70px;
+}
